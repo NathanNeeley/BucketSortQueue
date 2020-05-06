@@ -1,3 +1,10 @@
+// Name:       Nathan Neeley
+// Class:      CS 5040
+// Term:       Spring 2020
+// Instructor: Dr. Haddad
+// Assignment: 4
+// IDE:        jGrasp
+
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
@@ -37,6 +44,7 @@ public class RadixSort_Nathan_Neeley
          else
             System.out.println(inputs[i]);
       }
+      
    }
    
    public static void sort(int[] inputs)
@@ -165,7 +173,7 @@ public class RadixSort_Nathan_Neeley
    
    public static int DigitCount(int[] inputs) 
    {
-      int count = 0;
+      int count = 1;
       int max = 0;
       for (int i = 0; i < inputs.length; i++) {
          if (inputs[i] > max)

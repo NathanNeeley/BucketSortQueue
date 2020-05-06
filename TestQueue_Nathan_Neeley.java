@@ -1,3 +1,10 @@
+// Name:       Nathan Neeley
+// Class:      CS 5040
+// Term:       Spring 2020
+// Instructor: Dr. Haddad
+// Assignment: 4
+// IDE:        jGrasp
+
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
